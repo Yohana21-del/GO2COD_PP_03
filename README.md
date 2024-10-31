@@ -1,11 +1,10 @@
 Python Alarm Clock
-
 This is a simple alarm clock application written in Python. It allows users to set an alarm for a specific time, and when that time is reached, it plays a beep sound and displays a message to wake up.
 
 Features
 Set an alarm for any specific time today or tomorrow.
 Plays a beep sound when the alarm time is reached.
-Automatically sets the alarm for the next day if the specified time has already passed.
+Automatic adjustment for the next day if the specified time has already passed.
 Requirements
 Python 3.x
 winsound module (built-in for Windows)
@@ -46,3 +45,7 @@ Alarm Doesn't Wait Until Specified Time: Make sure the break statement is inside
 No Sound on Non-Windows OS: Replace winsound.Beep() with a different sound-playing method, such as playsound, which works on multiple operating systems.
 License
 This project is licensed under the MIT License.
+
+Acknowledgments
+Thanks to the Python community for making such versatile libraries available for everyone to use!
+
